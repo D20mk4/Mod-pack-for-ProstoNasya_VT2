@@ -1,0 +1,31 @@
+// Visit the wiki for more info - https://kubejs.com/
+console.info('Hello, World! (Loaded startup example script)')
+StartupEvents.registry('item', event => {
+    event.create('cat_base').texture('kubejs:item/cat_base').displayName('Базовый катализатор').tooltip('Основа для любых катализаторов')
+    event.create('cat_stone').texture('kubejs:item/cat_stone').displayName('Каменный катализатор').tooltip('Улучшает создание булыжника и природных камней')
+    event.create('cat_mettal').texture('kubejs:item/cat_mettal').displayName('Металлический катализатор').tooltip('Позволяет создавать металл эффективнее')
+    event.create('cat_gem').texture('kubejs:item/cat_gem').displayName('Драгоценный катализатор').tooltip('Позволяет создавать драгоценные и не очень камни')
+    event.create('cat_blaze').texture('kubejs:item/cat_blaze').displayName('Огненный катализатор').tooltip('Позволяет работать с лавой увеличивает выход продукции')
+    event.create('cat_ceramic').texture('kubejs:item/cat_ceramic').displayName('Керамический катализатор').tooltip('Пористая керамика улавливающая даже самые мелкие фрагменты')
+})
+StartupEvents.registry('item', event => {
+    event.create('antion_fragment').texture('kubejs:item/antion_fragment').displayName('Древние фрагменты').tooltip('Выглядит древним и загадочным')
+    event.create('plasm_fragment').texture('kubejs:item/plasm_fragment').displayName('Плазменные фрагменты').tooltip('Горячие пылинки излучающие фиолетовое свечение')
+    event.create('rare_earth').texture('kubejs:item/rare_earth').displayName('Редкие земли').tooltip('Горстка странной пыли, выглядит редким')
+    event.create('amorph_polimer').texture('kubejs:item/amorph_polimer').displayName('Аморфный полимер').tooltip('Вызывает тревогу и вселяет ужас')
+    event.create('sheelit_fragment').texture('kubejs:item/sheelit_fragment').displayName('Фрагменты шеелита').tooltip('Красивые кристаллы, содержит вольфрам')
+})
+StartupEvents.registry('item', event => {
+    event.create('thungsten_steel').texture('kubejs:item/thungsten_steel').displayName('Вольфрамовая сталь').tooltip('Твёрдая износостойкая сталь')
+    event.create('amorph_steel').texture('kubejs:item/amorph_steel').displayName('Аморфная сталь').tooltip('Оно будсто смотрит на тебя...')
+    event.create('kat_steel').texture('kubejs:item/kat_steel').displayName('КАТ сталь').tooltip('АЙ! Она излучает такой холод, что обжигает руки оставляя чёрные следы')
+    event.create('titancopper_alloy').texture('kubejs:item/titancopper_alloy').displayName('Титан-медный псевдосплав').tooltip('Выглядит странно')
+    event.create('d_alloy').texture('kubejs:item/d_alloy').displayName('D сплав').tooltip('Прочный материал усиленный плазмой')
+})
+StartupEvents.registry('item', event => {
+    event.create('andesite_comp').texture('kubejs:item/andesite_comp').displayName('Андезитовый компонент').tooltip('Использыется для удешевления рецептов Create')
+    event.create('brass_comp').texture('kubejs:item/brass_comp').displayName('Латунный компонент').tooltip('Использыется для удешевления рецептов Create')
+    event.create('copper_comp').texture('kubejs:item/copper_comp').displayName('Медный компонент').tooltip('Использыется для удешевления рецептов Create')
+    event.create('creative_comp').texture('kubejs:item/creative_comp').displayName('Креативный компонент').tooltip('Использыуется в создании творческих предметов')
+    event.create('inert_comp').texture('kubejs:item/inert_comp').displayName('Инертный компонент').tooltip('Оно смотрит прямо тебе в душу')
+})
